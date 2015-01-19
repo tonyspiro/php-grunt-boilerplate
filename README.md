@@ -60,11 +60,11 @@ Here is what index.php will look like in development (notice the multiple css an
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Les styles -->
-            <link rel="stylesheet" href="src/vendor/css/bootstrap.min.css">
-                <link rel="stylesheet" href="src/css/header.css">
-                <link rel="stylesheet" href="src/css/main.css">
-                <link rel="stylesheet" href="src/css/footer.css">
-          </head>
+    <link rel="stylesheet" href="src/vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+  </head>
   <body data-env="development">
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
