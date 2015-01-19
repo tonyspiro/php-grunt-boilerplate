@@ -132,14 +132,14 @@ Here is what index.php will look like in development (notice the multiple css an
   </div> <!-- /container -->
 
       <!-- Les scripts -->
-                <script src="src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-                    <script src="src/vendor/js/jquery-1.10.1.min.js"></script>
-                    <script src="src/vendor/js/bootstrap.min.js"></script>
-                    <script src="src/js/on-ready.js"></script>
-                    <script src="src/js/on-scroll.js"></script>
-                    <script src="src/js/on-resize.js"></script>
-                    <script src="src/js/functions.js"></script>
-          
+      <script src="src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+      <script src="src/vendor/js/jquery-1.10.1.min.js"></script>
+      <script src="src/vendor/js/bootstrap.min.js"></script>
+      <script src="src/js/on-ready.js"></script>
+      <script src="src/js/on-scroll.js"></script>
+      <script src="src/js/on-resize.js"></script>
+      <script src="src/js/functions.js"></script>
+      
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
       <script>
           (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -168,8 +168,8 @@ And just flip the switch into production and notice only one css and and one js 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Les styles -->
-          <link rel="stylesheet" href="dist/css/main.min.css">
-      </head>
+    <link rel="stylesheet" href="dist/css/main.min.css">
+  </head>
   <body data-env="production">
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -237,7 +237,7 @@ And just flip the switch into production and notice only one css and and one js 
   </div> <!-- /container -->
 
       <!-- Les scripts -->
-              <script src="dist/js/compiled.min.js"></script>
+      <script src="dist/js/compiled.min.js"></script>
       
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
       <script>
