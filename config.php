@@ -7,7 +7,7 @@ define('ENV','development'); // or production
 
 
 /// Combine LESS into CSS files
-$GLOBALS['DEV_CSS_FILES'] = [
+$GLOBALS['DEV_CSS_FILES'] = array(
 	
 	'src/vendor/css/bootstrap.min.css',
 	'src/css/header.css',
@@ -16,10 +16,10 @@ $GLOBALS['DEV_CSS_FILES'] = [
 
 	/// add more css files here!
 
-];
+);
 
 /// Combine JS files
-$GLOBALS['DEV_JS_FILES'] = [
+$GLOBALS['DEV_JS_FILES'] = array(
 	
 	'src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js',
 	'src/vendor/js/jquery-1.10.1.min.js',
@@ -31,5 +31,5 @@ $GLOBALS['DEV_JS_FILES'] = [
 
 	/// add more js files here!
 
-];
+);
 ?>
