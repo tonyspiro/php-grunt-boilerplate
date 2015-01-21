@@ -1,1 +1,5 @@
-// Add main scripts here
+$(window).on('scroll', function(){
+
+	// Add scroll scripts here
+
+});

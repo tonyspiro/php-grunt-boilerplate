@@ -1,1 +1,5 @@
-// Add main scripts here
+$(window).on('resize', function(){
+
+	// Add resize scripts here
+
+});

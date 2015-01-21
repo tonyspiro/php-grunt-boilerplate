@@ -1,1 +1,5 @@
-// Add main scripts here
+$(function(){
+
+	// Add ready scripts here
+
+});
