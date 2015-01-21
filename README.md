@@ -45,6 +45,8 @@ grunt watch
 2. Lint your javascript for issues with JSHint.<br>
 3. Minify and compile your javascript into ONE MINIFIED JAVACRIPT FILE.
 
+##HTML Output:<br>
+### In development
 Here is what index.php will look like in development (notice the multiple css and js files):
 ```html
 
@@ -152,7 +154,7 @@ Here is what index.php will look like in development (notice the multiple css an
   </body>
 </html>
 ```
-
+### In production
 And just flip the switch into production and notice only one css and and one js file from the dist folder:
 ```html
 
