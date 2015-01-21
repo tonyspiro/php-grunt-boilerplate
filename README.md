@@ -138,6 +138,7 @@ Here is what index.php will look like in development (notice the multiple css an
       <script src="src/vendor/js/jquery-1.10.1.min.js"></script>
       <script src="src/vendor/js/bootstrap.min.js"></script>
       <script src="src/js/on-ready.js"></script>
+      <script src="src/js/on-load.js"></script>
       <script src="src/js/on-scroll.js"></script>
       <script src="src/js/on-resize.js"></script>
       <script src="src/js/functions.js"></script>
