@@ -17,9 +17,9 @@ grunt
 ```
 If you would like to use Grunt MAMP:
 ```
-grunt stop // if MAMP is running, stop it
-grunt config // configure MAMP to point to config.site_full_path at config.port in Gruntfile.js
-grunt start // start MAMP
+grunt stop
+grunt config
+grunt start
 ```
 You can also run this command to watch files for edits:
 ```
