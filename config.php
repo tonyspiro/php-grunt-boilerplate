@@ -1,12 +1,11 @@
 <?php
 
-/* Configure!
-================================ */
-
+/* !!!! CONFIGURE !!!!
+====================================================  */
 define('ENV','development'); // development or production
 
 // CSS files
-$GLOBALS['DEV_CSS_FILES'] = array(
+$GLOBALS['CSS_FILES'] = array(
 	
 	'src/vendor/css/bootstrap.min.css',
 	'src/css/header.css',
@@ -15,10 +14,16 @@ $GLOBALS['DEV_CSS_FILES'] = array(
 	// add more css files here!
 );
 
+
 // JS files
-$GLOBALS['DEV_JS_FILES'] = array(
-	
+$GLOBALS['JS_HEAD_FILES'] = array(
 	'src/vendor/js/modernizr-2.6.2-respond-1.1.0.min.js',
+	// add more js files for the head here!
+);
+
+// JS files
+$GLOBALS['JS_FOOT_FILES'] = array(
+	
 	'src/vendor/js/jquery-1.10.1.min.js',
 	'src/vendor/js/bootstrap.min.js',
 	'src/js/on-ready.js',
@@ -26,6 +31,6 @@ $GLOBALS['DEV_JS_FILES'] = array(
 	'src/js/on-scroll.js',
 	'src/js/on-resize.js',
 	'src/js/functions.js'
-	// add more js files here!
+	// add more js files for the foot here!
 );
 ?>

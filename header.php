@@ -1,5 +1,6 @@
 <?php
 include("config.php");
+include("functions.php");
 ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -13,23 +14,10 @@ include("config.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Les styles -->
     <?php 
-    if(ENV=="development"){
-
-      foreach($GLOBALS['DEV_CSS_FILES'] as $dev_css_path){
-        ?>
-        <link rel="stylesheet" href="<?php echo $dev_css_path; ?>">
-        <?php
-      }
-    }
-
-    if(ENV=="production"){
-      ?>
-      <link rel="stylesheet" href="dist/css/main.min.css">
-    <?php
-    }
+    head_files();
     ?>
   </head>
-  <body data-env="<?php echo ENV; ?>">
+  <body>
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->

@@ -6,22 +6,8 @@
 
 		<!-- Les scripts -->
     <?php 
-    if(ENV=="development"){
-
-      foreach($GLOBALS['DEV_JS_FILES'] as $dev_js_path){
-        ?>
-        <script src="<?php echo $dev_js_path; ?>"></script>
-        <?php
-      }
-    }
-
-    if(ENV=="production"){
-      ?>
-      <script src="dist/js/compiled.min.js"></script>
-    <?php
-    }
+    foot_files();
     ?>
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
