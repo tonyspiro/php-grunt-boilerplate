@@ -6,7 +6,7 @@ module.exports = function(grunt){
   ====================================================  */
   var config = {   
     
-    site_full_path = '/your/full/site/path'; // something like /Users/username/sites/mymampsite
+    site_full_path : '/your/full/site/path', // something like /Users/username/sites/mymampsite
 
     port : 8888,
 
