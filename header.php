@@ -9,7 +9,7 @@ include("functions.php");
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>PHP Grunt HTML 5 Boilerplate</title>
+    <title>PHP Grunt Boilerplate</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Les styles -->
@@ -30,18 +30,13 @@ include("functions.php");
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">PHP Grunt Boilerplate</a>
         </div>
         <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Another Link</a></li>
+          </ul>
         </div><!--/.navbar-collapse -->
       </div><!--/.container -->
     </div><!--/.navbar -->

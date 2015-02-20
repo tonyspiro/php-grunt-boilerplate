@@ -15,7 +15,7 @@ cd php-grunt-boilerplate
 npm install
 grunt
 ```
-If you would like to use Grunt MAMP:
+If you would like to use Grunt MAMP, go into `Gruntfile.js` and set your `site_full_path` and `config` variables, then:
 ```
 grunt stop
 grunt config
