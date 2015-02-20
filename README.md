@@ -28,7 +28,7 @@ grunt watch
 
 ##Configuration
 
-###Config.php
+###config.php
 1. Set your environment (development or production)
 2. Set your CSS files
 
