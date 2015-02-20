@@ -15,7 +15,7 @@ cd php-grunt-boilerplate
 npm install
 grunt
 ```
-If you would like to use Grunt MAMP
+If you would like to use Grunt MAMP:
 ```
 grunt stop // if MAMP is running, stop it
 grunt config // configure MAMP to point to config.site_full_path at config.port in Gruntfile.js
@@ -41,21 +41,12 @@ grunt watch
   - Add your css combined files
   - Add your js combined files
 
-### In development grunt will:
-1. Process your LESS files into multiple CSS files in the header.php file for development.
-2. Lint your configured javascript files for issues with JSHint.
+### In development:
+1. Your index.php file will include src/css files specified in the config.php file.
+2. Your index.php file will include all src/js files specified in the config.php file.
 
-### In production grunt will:
-1. Process your LESS files and minify your CSS into ONE MINIFIED CSS FILE.
-2. Lint your javascript for issues with JSHint.
-3. Minify and compile your javascript into ONE MINIFIED JAVACRIPT FILE.
-
-### In development your index.php file will include:
-1. All src/css files specified in the config.php file.
-2. All src/js files specified in the config.php file.
-
-### In production
-And just flip the switch into production and notice there's only one minified css file in the head, one js- file and one js file from the dist folder:
+### In production:
+Just flip the switch into production and notice there's only one minified css file in the head, one minified js file in the `<head>` and one minified js file before the `</body>` tag.
 
 Feel free to fork or open up issues for suggested features.
 Find me on twitter [@tonyspiro](http://twitter.com/tonyspiro).
