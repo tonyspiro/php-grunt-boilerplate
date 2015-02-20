@@ -30,7 +30,9 @@ grunt watch
 
 ###config.php
 1. Set your environment (development or production)
-2. Set your CSS files
+2. Set your `$GLOBALS['CSS_FILES']`
+2. Set your `$GLOBALS['JS_HEAD_FILES']`
+2. Set your `$GLOBALS['JS_FOOT_FILES']`
 
 ###Gruntfile.js
 1. For development:
