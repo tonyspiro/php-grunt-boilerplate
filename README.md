@@ -29,23 +29,23 @@ grunt watch
 ##Configuration
 
 ###config.php
-1. Set your environment (development or production)
-2. Set your `$GLOBALS['CSS_FILES']`
-2. Set your `$GLOBALS['JS_HEAD_FILES']`
-2. Set your `$GLOBALS['JS_FOOT_FILES']`
+1. Set the environment (development or production)
+2. Set the `$GLOBALS['CSS_FILES']`
+2. Set the `$GLOBALS['JS_HEAD_FILES']`
+2. Set the `$GLOBALS['JS_FOOT_FILES']`
 
 ###Gruntfile.js
 1. For development:
-  - Add your less -> css files
-  - Add your JSHint files
-  - Add your watch files
+  - Add the less -> css files
+  - Add the JSHint files
+  - Add the watch files
 2. For production:
-  - Add your css combined files
-  - Add your js combined files
+  - Add the css combined files
+  - Add the js combined files
 
 ### In development:
-1. Your index.php file will include src/css files specified in the config.php file.
-2. Your index.php file will include all src/js files specified in the config.php file.
+1. The index.php file will include src/css files specified in the config.php file.
+2. The index.php file will include all src/js files specified in the config.php file.
 
 ### In production:
 Just flip the switch into production and notice there's only one minified css file in the head, one minified js file in the `<head>` and one minified js file before the `</body>` tag.
